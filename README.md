@@ -27,8 +27,25 @@ Installation
   - Bash (v4.0 or higher)
   - cURL
   - jq (for JSON parsing)
-5. Usage
-Run the script with the following command:
+    
+## Usage
 
-  ```bash
-  ./list-users.sh <organization_name> <repository_name>
+   Run the script with the following command:
+   
+        ./list-users.sh <organization_name> <repository_name>
+  
+Replace <organization_name> with the name of the GitHub organization and <repository_name> with the name of the repository for which you want to list users.
+
+## Example
+
+         ./list-users.sh myorganization myrepository
+
+Acknowledgements
+
+📚 GitHub API Documentation
+
+📚 Bash Documentation
+
+Author
+
+👩‍💻 Geetika Kopuri
