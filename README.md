@@ -15,4 +15,20 @@
 
 Installation
 1. Clone the repository to your local machine:
-2. 
+
+   ```bash
+   git clone https://github.com/Geetika563/Shell-Scripting-project-to-list-users-in-organizations.git
+2. Navigate to the project directory:
+
+   ```bash
+   cd Shell-Scripting-project-to-list-users-in-organizations
+4. Ensure that you have the required dependencies installed:
+
+  - Bash (v4.0 or higher)
+  - cURL
+  - jq (for JSON parsing)
+5. Usage
+Run the script with the following command:
+
+  ```bash
+  ./list-users.sh <organization_name> <repository_name>
